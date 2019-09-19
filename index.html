@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+</html>
+<head>
+
+<title>Quiz Game</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Quiz Game</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">How may states are in the United States of America?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What is the capital of the United States of America?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Washington D.C."> Washington D.C.<br>
+<input type = "radio" id = "mc" name = "question2" value = "New York City"> New York City<br>
+<input type = "radio" id = "mc" name = "question2" value = "Los Angeles"> Los Angeles<br>
+
+
+<p class = "questions">What is the capital of New York?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Albany"> Albany<br>
+<input type = "radio" id = "mc" name = "question3" value = "Rochester"> Rochester<br>
+<input type = "radio" id = "mc" name = "question3" value = "New York City"> New York City<br>
+
+<p class = "questions">What month and day is Independence day?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "January 1st"> January 1st<br>
+<input type = "radio" id = "mc" name = "question4" value = "July 4th"> July 4th<br>
+<input type = "radio" id = "mc" name = "question4" value = "July 3th"> July 3th<br>
+
+<input id = "button" type = "button" value = "Done" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+
+</div>
+
+</body>
+
+
+</html>
